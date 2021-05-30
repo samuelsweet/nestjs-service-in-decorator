@@ -3,9 +3,8 @@ import { ClearCache } from './clear.cache.decorator';
 
 @Injectable()
 export class AppService {
-
   @ClearCache()
-  getHello( param: string ): string {
+  getHello(param: string): string {
     return 'Hello World!';
   }
 }
